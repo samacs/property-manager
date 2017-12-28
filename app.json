@@ -1,12 +1,12 @@
 {
-  "name": "PropertyWebBuilder for Heroku",
+  "name": "Property Manager",
   "description": "An instant website for real estate agencies.",
   "keywords": [
     "realtor","property management", "cms",
     "rails", "proptech", "opensource"
   ],
-  "website": "http://propertywebbuilder.com/",
-  "repository": "https://github.com/etewiah/property_web_builder",
+  "website": "https://warm-plateau-36235.herokuapp.com",
+  "repository": "https://github.com/samacs/property-manager",
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate pwb:db:seed pwb:db:seed_pages property_web_scraper:db:seed"
   },
