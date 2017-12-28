@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby "2.4.2"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 # gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
@@ -55,4 +56,3 @@ gem 'paloma', github: 'fredngo/paloma'
 # fog-core 1.44.0 requires xmlrpc which is not available in ruby < 2.3...
 gem 'fog-core', '1.43.0'
 gem 'property_web_scraper', github: 'RealEstateWebTools/property_web_scraper'
-

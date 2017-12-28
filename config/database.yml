@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: pwb-for-heroku_development
+  database: property-manager_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -57,7 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: pwb-for-heroku_test
+  database: property-manager_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: pwb-for-heroku_production
-  username: pwb-for-heroku
-  password: <%= ENV['PWB-FOR-HEROKU_DATABASE_PASSWORD'] %>
+  database: property-manager_production
+  username: property-manager
+  password: <%= ENV['PROPERTY_MANAGER_DATABASE_PASSWORD'] %>
